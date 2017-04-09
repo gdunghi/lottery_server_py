@@ -51,4 +51,4 @@ def perdictLotto(d,m,y,data1,data2):
 	return classifier.predict([[d,m,y]])[0]
 
 
-run(host='0.0.0.0', port=8080)
+run(host='0.0.0.0', port=8081)
